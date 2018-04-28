@@ -97,11 +97,6 @@ function movieThis(movie) {
         if (error) {
             console.log(error);
         } else {
-            fs.writeFile("movies.json", body, function (err) {
-                if (err) {
-                    console.log(err);
-                }
-            });
             console.log(lineBreak);
             console.log("Title: " + JSON.parse(body).Title);
             console.log("Year Released: " + JSON.parse(body).Year);
