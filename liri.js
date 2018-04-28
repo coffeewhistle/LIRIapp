@@ -79,7 +79,7 @@ function spotifyThisSong(song) {
             console.log("Artist(s): " + response.tracks.items[0].artists[0].name);
             // The song's name from the first result
             console.log("Track Name: " + response.tracks.items[0].album.name);
-            // A prview link of the song from Spotify
+            // A preview link of the song from Spotify
             console.log("Preview URL: " + response.tracks.items[0].preview_url);
             // The album that the song is from
             console.log("Album: " + response.tracks.items[0].album.name);
