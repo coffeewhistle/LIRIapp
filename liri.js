@@ -58,6 +58,7 @@ function myTweets() {
         if (!error) {
             // console.log(tweets);
         }
+        console.log(lineBreak);
         for (var i = 0; i < tweets.length; i++) {
             var data = tweets[i];
             console.log("User: " + data.user.name);
