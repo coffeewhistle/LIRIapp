@@ -19,6 +19,7 @@
   "homepage": "https://github.com/coffeewhistle/LIRIapp#readme",
   "dependencies": {
     "dotenv": "^5.0.1",
+    "jsonfile": "^4.0.0",
     "node-spotify-api": "^1.0.7",
     "npm": "^6.0.0",
     "request": "^2.85.0",
